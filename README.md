@@ -150,6 +150,8 @@ files: [
 ]
 ```
 
+This is needed since SystemJS depends on `Function.bind()`, which is not supported in PhantomJS.
+
 If you rerun Karma, your tests should be passing. If you didn't care about HTML coverage reports, you could go on your way, and have a fully working ES6, Karma, Jasmine, JSPM and Babel setup. Not too bad!
 
 Coverage
@@ -239,4 +241,4 @@ Again, if you're living in the future, this might already be working for you. If
 
 	"istanbul": "gotwarlost/istanbul.git#source-map"
 
-Boom! If you run Karma again, line highlights should also be working.
+Boom! If you run Karma again, line highlighting should also be working.
