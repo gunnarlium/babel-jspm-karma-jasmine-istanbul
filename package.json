@@ -1,0 +1,38 @@
+{
+  "name": "babel-jspm-karma-jasmine-istanbul",
+  "version": "1.0.0",
+  "description": "Babel JSPM Karma Jasmine Istanbul Coverage example and tutorial",
+  "repository": "git@github.com:gunnarlium/babel-jspm-karma-jasmine-istanbul.git",
+  "main": "index.js",
+  "devDependencies": {
+    "isparta": "^3.0.3",
+    "istanbul": "gotwarlost/istanbul.git#source-map",
+    "jasmine": "^2.3.1",
+    "jasmine-core": "^2.3.4",
+    "jspm": "^0.15.7",
+    "karma": "^0.12.37",
+    "karma-babel-preprocessor": "^5.2.1",
+    "karma-coverage": "douglasduteil/karma-coverage#next",
+    "karma-jasmine": "^0.3.6",
+    "karma-jspm": "^1.1.5",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-sourcemap-loader": "^0.3.5",
+    "phantomjs": "^1.9.17"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "jspm": {
+    "directories": {
+      "baseURL": "src"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}
