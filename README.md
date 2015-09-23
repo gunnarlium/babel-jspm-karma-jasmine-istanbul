@@ -5,6 +5,7 @@ A sample repo to show what's need to get HTML code coverage reports working when
 
 To install and run:
 
+	$ npm install -g jspm karma-cli
 	$ npm install
 	$ jspm install
 	$ karma start karma.conf.js
