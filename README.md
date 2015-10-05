@@ -215,7 +215,7 @@ If you're reading this in the future, your coverage report may already be showin
 
 	"karma-coverage": "douglasduteil/karma-coverage#next"
 
-Now you're almost there. Your tests are running, you get coverage reports, and their all in beatiful ES6. There's one problem, however. If you look closely at the coverage for `hello.js`, you'll see that the coverage is highlighting the wrong lines. We can fix this by adding source maps.
+Now you're almost there. Your tests are running, you get coverage reports, and their all in beautiful ES6. There's one problem, however. If you look closely at the coverage for `hello.js`, you'll see that the coverage is highlighting the wrong lines. We can fix this by adding source maps.
 
 	$ npm install --save-dev karma-sourcemap-loader
 
