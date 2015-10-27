@@ -22,9 +22,8 @@ module.exports = function (config) {
 		},
 
 		proxies: {
-			// '/base': '/base/src'
-			'/src/': '/base/src',
-			'/jspm_packages/': '/src/jspm_packages'
+			'/src/': '/base/src/',
+			'/jspm_packages/': '/src/jspm_packages/'
 		},
 
 		browsers: ['PhantomJS'],
