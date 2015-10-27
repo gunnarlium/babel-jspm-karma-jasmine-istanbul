@@ -20,7 +20,8 @@
     "phantomjs": "^1.9.17"
   },
   "scripts": {
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js",
+    "postinstall": "jspm install"
   },
   "author": "",
   "license": "MIT",
