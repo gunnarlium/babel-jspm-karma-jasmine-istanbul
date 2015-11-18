@@ -5,6 +5,7 @@
   "repository": "git@github.com:gunnarlium/babel-jspm-karma-jasmine-istanbul.git",
   "main": "index.js",
   "devDependencies": {
+    "babel-core": "^5.8.34",
     "isparta": "^3.0.3",
     "istanbul": "gotwarlost/istanbul.git#source-map",
     "jasmine": "^2.3.1",

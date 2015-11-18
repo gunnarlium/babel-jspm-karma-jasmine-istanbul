@@ -140,15 +140,15 @@ module.exports = function (config) {
 
 ```
 
-At this point, you should be able to run `karma start karma.conf.js`, but it will error without much explanation, as your transpiling isn't quite ready yet. You need to install `karma-babel-preprocessor`:
+At this point, you should be able to run `karma start karma.conf.js`, but it will error without much explanation, as your transpiling isn't quite ready yet. You need to install `babel-core` and `karma-babel-preprocessor`:
 
-	$ npm install --save-dev karma-babel-preprocessor
+	$ npm install --save-dev babel-core@5 karma-babel-preprocessor
 
 Load the polyfill in your Karma config:
 
 ```js
 files: [
-	'node_modules/karma-babel-preprocessor/node_modules/babel-core/browser-polyfill.js'
+	'node_modules/babel-core/browser-polyfill.js'
 ]
 ```
 

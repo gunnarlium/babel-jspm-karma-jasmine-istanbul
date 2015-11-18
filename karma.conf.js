@@ -8,7 +8,7 @@ module.exports = function (config) {
 		frameworks: ['jspm', 'jasmine'],
 
 		files: [
-			'node_modules/karma-babel-preprocessor/node_modules/babel-core/browser-polyfill.js'
+			'node_modules/babel-core/browser-polyfill.js'
 		],
 
 		jspm: {
