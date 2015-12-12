@@ -8,7 +8,7 @@ module.exports = function (config) {
 		frameworks: ['jspm', 'jasmine'],
 
 		files: [
-			'node_modules/babel-core/browser-polyfill.js'
+			'node_modules/babel-polyfill/dist/polyfill.js'
 		],
 
 		jspm: {
@@ -34,8 +34,7 @@ module.exports = function (config) {
 
 		babelPreprocessor: {
 			options: {
-				sourceMap: 'inline',
-				blacklist: ['useStrict']
+				sourceMap: 'inline'
 			},
 			sourceFileName: function(file) {
 				return file.originalPath;

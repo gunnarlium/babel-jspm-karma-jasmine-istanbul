@@ -5,14 +5,16 @@
   "repository": "git@github.com:gunnarlium/babel-jspm-karma-jasmine-istanbul.git",
   "main": "index.js",
   "devDependencies": {
-    "babel-core": "^5.8.34",
+    "babel-core": "^6.3.17",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
     "isparta": "^3.0.3",
     "istanbul": "gotwarlost/istanbul.git#source-map",
     "jasmine": "^2.3.1",
     "jasmine-core": "^2.3.4",
     "jspm": "^0.16.13",
     "karma": "^0.13.14",
-    "karma-babel-preprocessor": "^5.2.1",
+    "karma-babel-preprocessor": "^6.0.1",
     "karma-coverage": "douglasduteil/karma-coverage#next",
     "karma-jasmine": "^0.3.6",
     "karma-jspm": "^2.0.2",
@@ -31,7 +33,7 @@
       "baseURL": "src"
     },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.8.24",
+      "babel": "npm:babel-core@^6.3.17",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
     }
