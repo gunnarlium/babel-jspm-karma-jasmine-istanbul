@@ -7,7 +7,6 @@ To install and run:
 
 	$ npm install -g jspm karma-cli
 	$ npm install
-	$ jspm install
 	$ karma start karma.conf.js
 	$ open coverage/phantomjs/index.html
 
