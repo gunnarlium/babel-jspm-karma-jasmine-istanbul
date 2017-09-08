@@ -26,7 +26,7 @@ module.exports = function (config) {
 			'/jspm_packages/': '/src/jspm_packages/'
 		},
 
-		browsers: ['PhantomJS'],
+		browsers: ['ChromeHeadless'],
 
 		preprocessors: {
 			'src/!(*spec).js': ['babel', 'sourcemap', 'coverage']

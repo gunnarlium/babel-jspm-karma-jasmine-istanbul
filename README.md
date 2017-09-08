@@ -116,7 +116,7 @@ With our test written, it's time to start adding a few test related dependencies
 First, let's install the basics needed for Jasmine and Karma with PhantomJS:
 
 	$ npm install -g karma-cli
-	$ npm install --save-dev phantomjs jasmine jasmine-core karma karma-jasmine karma-phantomjs-launcher karma-jspm
+	$ npm install --save-dev jasmine jasmine-core karma karma-jasmine karma-chrome-launcher karma-jspm
 
 Also, create a simple `karma.conf.js`:
 
@@ -145,7 +145,7 @@ module.exports = function (config) {
 			'/jspm_packages/': '/src/jspm_packages/'
 		},
 
-		browsers: ['PhantomJS'],
+		browsers: ['ChromeHeadless'],
 
 		reporters: ['progress'],
 
